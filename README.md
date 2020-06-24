@@ -1,10 +1,10 @@
 # Hello World in Python
 
-This exercise is meant to make sure you have everything setup (Unix environment, Python, text editor) and practice using Github classroom and `pytest` to complete assignments. Our material for learning Python will use these tools and this pattern, so it's important to get everything set up now!
+The goal of this exercise is to set up your computing environment and practice the workflow we will be using in our pre-course programming material. You will set up a Unix environment with git, Python, a text editor, and pytest, as well as practice using git in the Github Classroom workflow.
 
 ### Instructions
 
-1. Setup a Unix environment to work in! Unix means, in effect, either Mac or Linux. If you already use a Mac, it's fine to just stick with it. If you use Windows, you should install a Linux distribution (either in a separate partition or, if you're ready to take a big bold step towards a brighter future, just delete Windows altogether). I recommend [Manjaro](https://manjaro.org/) or [Ubuntu](https://ubuntu.com/). Ubuntu is a bit more popular and the internet is full of guides, which is nice for first-time Linux users, but Manjaro has a great package manager which makes life very pleasant. Any Linux distribution will do, however, so feel free to read a bit and choose one that you think you will like.
+1. Setup a Unix environment to work in! Unix means, in effect, either Mac or Linux. If you already use a Mac, it's fine to just stick with it. If you use Windows, you should install a Linux distribution (either in a separate partition or, if you're ready to take a big bold step towards a brighter future, just delete Windows altogether). I recommend [Manjaro](https://manjaro.org/) or [Ubuntu](https://ubuntu.com/). Ubuntu is a bit more popular and the internet is full of guides, which is nice for first-time Linux users, but Manjaro has a great package manager which makes life very pleasant. Any Linux distribution will do, so feel free to read a bit and choose one that you think you will like.
 
 2. Learn to use the terminal (also called console) on your system. Both MacOS and any Linux distribution will come with a terminal, in Mac and Ubuntu (Gnome) this is called "Terminal", in KDE Linux distros it is "Konsole". These applications are _terminal emulators_ and provide a _command line interface_ to your operating system via a _shell_ program (usually either _bash_ or _zsh_). Don't worry about all those terms, that sentence is there so that you can start to become familiar with them and recognize them.
 
@@ -12,16 +12,15 @@ This exercise is meant to make sure you have everything setup (Unix environment,
 
 3. Get to know your package manager. For MacOS, I recommend using [Homebrew](https://brew.sh/). For Linux, you will have a default package manager (pacman, apt, yum, etc.). Read a bit about package management on your operating system. Package managers will let you install/manage applications for your system and allow you to do it all from the terminal, which is very convenient.
 
-4. Using your package manager, install `git` on your system if you don't already have it. To check if you have it, run `git --version` from the terminal. The current version is `2.27.0`, but it won't be important to have the latest version right now. If you want a newer version, you can use your package manager to install the latest. It's good practice to keep up with the latest versions of your tools. Here are a couple of reasonable guides for learning what git is and how to use it (note: the only features you will need for now are `clone`, `commit`, and `push`):
+4. Using your package manager, install `git` on your system if you don't already have it. To check if you have it, run `git --version` from the terminal. The current version is `2.27.0`, but it's not important to have the latest version right now. If you want a newer version, you can use your package manager to install the latest. It's good practice to keep up with the latest versions of your tools. Here are a couple of reasonable guides for learning what git is and how to use it (note: the only features you will need for now are `clone`, `commit`, and `push`):
 
 * [Hello World using just Github](https://guides.github.com/activities/hello-world/)
 * [Introduction to git on the command line](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 * [Official Git Documentation](https://git-scm.com/)
 
-5. "Clone" this repository. Cloning and repositories are both concepts from git, which you can read about in the previous guides. Basically, it means "copy files from a remote server to my local computer". The im
-portant thing is that, in addition to the files, you get the "version history" as well.
+5. "Clone" this repository. Cloning and repositories are both concepts from git, which you can read about in the previous guides. Basically, it means "copy files from a remote server to my local computer". With cloning, in addition to the files themselves, you get the "version history" as well.
 
-6. You're right now reading the `README.md` file of this repository. You're probably reading it online, but now that you've cloned the repository to your local computer, you should have this file there too! Go ahead and try and read it. It's a "markdown" file. You can open it in any program that reads plain text files or by using `cat` from the command line.
+6. Right now, what you're reading is actually the `README.md` file of this repository. You're probably reading it online, but now that you've cloned the repository to your local computer, you should have this file there too! Go ahead and try and read it. It's a "markdown" file. You can open it in any program that reads plain text files or by using `cat` from the command line.
 
 7. Install Python3 and on your system. The latest version is `3.8`, which is what you should install, but `3.5+` will work fine for now if you already have it.
 
@@ -35,7 +34,7 @@ portant thing is that, in addition to the files, you get the "version history" a
 
 You should then install the appropriate Python plugins/extensions. Try to open this folder in your editor, where you should be able to read this file as well as the python files `exercises.py` and `test_exercises.py`.
 
-9. Install the Python package `pytest` on your machine. If you know about virtual environments (or want to learn on your own), you can install `pytest` in a virtual environment you create for each assignment we will do. If not using a virtual environment, you can install the package on your machine by running `python3 -m pip install --user pytest` in your terminal.
+9. Install the Python package `pytest` on your machine. If you know about virtual environments (or want to learn on your own), you can install `pytest` in a virtual environment you create for each of the assignments. If not using a virtual environment, you can install the package on your machine by running `python3 -m pip install --user pytest` in your terminal.
 
 10. You should now be able to run the command: `pytest` in your terminal, inside this folder. The `pytest` package has installed this command globally and it is available anywhere from your terminal, however, it's behavior will change based on what folder you are in (in the terminal). When run from inside this folder, the `pytest` program will run all the "tests" in this exercise.
 
