@@ -18,13 +18,14 @@ This exercise is meant to make sure you have everything setup (Unix environment,
 * [Introduction to git on the command line](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 * [Official Git Documentation](https://git-scm.com/)
 
-5. "Clone" this repository. Cloning and repositories are both concepts from git, which you can read about in the previous guides. Basically, it means "copy files from a remote server to my local computer". The important thing is that, in addition to the files, you get the "version history" as well.
+5. "Clone" this repository. Cloning and repositories are both concepts from git, which you can read about in the previous guides. Basically, it means "copy files from a remote server to my local computer". The im
+portant thing is that, in addition to the files, you get the "version history" as well.
 
 6. You're right now reading the `README.md` file of this repository. You're probably reading it online, but now that you've cloned the repository to your local computer, you should have this file there too! Go ahead and try and read it. It's a "markdown" file. You can open it in any program that reads plain text files or by using `cat` from the command line.
 
-7. Install Python3 and on your system.
+7. Install Python3 and on your system. The latest version is `3.8`, which is what you should install, but `3.5+` will work fine for now if you already have it.
 
-**Background:** there are two "major" Python versions that circulate around: "2" and "3". In general, you should do all your programming in Python3 now, as Python2 is deprecated. However, there are some old programs that still use Python2 and your operating system might use one of these old programs and might have Python2 installed already. If that is the case, don't overwrite the Python2 installation on your computer, you can install Python3 as well and have both. Follow instructions for your operating system. For MacOS, I recommend using [Homebrew](https://brew.sh/) for installing a version of Python3 that won't overwrite any OS version. For Linux, you can use your package manager to install Python3.
+* _Background:_ there are two "major" Python versions that circulate around: "2" and "3". In general, you should do all your programming in Python3 now, as Python2 is deprecated. However, there are some old programs that still use Python2 and your operating system might use one of these old programs and might have Python2 installed already. If that is the case, don't overwrite the Python2 installation on your computer, you can have both and use python3 for your programming. Follow instructions for your operating system. For MacOS, I recommend using [Homebrew](https://brew.sh/) for installing a version of Python3 that won't overwrite any OS version. For Linux, you can use your package manager to install Python3.
 
 8. Install a text editor or Python IDE that you can use to write Python code. Here are a few text editor options:
 
