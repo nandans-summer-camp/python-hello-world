@@ -1,6 +1,6 @@
 # Hello World in Python
 
-The goal of this exercise is to set up your computing environment and practice the workflow we will be using in our pre-course programming material. You will set up a Unix environment with git, Python, a text editor, and pytest, as well as practice using git in the Github Classroom workflow.
+The goal of this exercise is to set up your computing environment and practice the workflow we will be using in our pre-course programming material. You will set up a Unix environment with git, Python, a text editor, and pytest.
 
 ### Instructions
 
@@ -10,7 +10,7 @@ The goal of this exercise is to set up your computing environment and practice t
 
 * [This is a great guide to using the terminal](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). It's created by Ubuntu, but works perfectly for any Linux user and the first few sections should work for Mac as well.
 
-3. Get to know your package manager. For MacOS, I recommend using [Homebrew](https://brew.sh/). For Linux, you will have a default package manager (pacman, apt, yum, etc.). Read a bit about package management on your operating system. Package managers will let you install/manage applications for your system and allow you to do it all from the terminal, which is very convenient.
+3. Get to know your package manager. For MacOS, I recommend using [Homebrew](https://brew.sh/), although by the time you read this article there might be a new package manger in town. For Linux, you will have a default package manager (pacman, apt, yum, etc.). Read a bit about package management on your operating system. Package managers will let you install/manage applications for your system and allow you to do it all from the terminal, which is very convenient.
 
 4. Using your package manager, install `git` on your system if you don't already have it. To check if you have it, run `git --version` from the terminal. The current version is `2.27.0`, but it's not important to have the latest version right now. If you want a newer version, you can use your package manager to install the latest. It's good practice to keep up with the latest versions of your tools. Here are a couple of reasonable guides for learning what git is and how to use it (note: the only features you will need for now are `clone`, `commit`, and `push`):
 
@@ -41,5 +41,3 @@ You should then install the appropriate Python plugins/extensions. Try to open t
 Tests are used a lot in programming to ensure that our code does what we want it do it. We will use tests in all our "learning Python" assignments. The tests will "fail" until you have written code that performs the assignment correctly, at which point it will "pass".
 
 11. Open the `exercises.py` file and complete the assignment. Run `pytest` again to see if you completed the assignment correctly. If the test passes, you're done!
-
-12. To "turn in" the assignment you will need to _commit_ your changes and _push_ them to your Github repository.
